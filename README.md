@@ -21,8 +21,6 @@ Alle Labs detects deepfakes, verifies media authenticity, and publishes verifiab
 ### Architecture
 
 ```
-
-```
                  +------------------------+
                  |      User or Agent     |
                  |  (DKG Agent UI or MCP) |
@@ -89,10 +87,8 @@ npm start
 cd packages/detection-worker
 pip install -r requirements.txt
 uvicorn src.main:app --reload --port 9400
-
-![Alle Labs worker](./public/dkg1.png)
-
 ```
+![Alle Labs worker](./public/dkg1.png)
 
 **Connect to DKG Agent**
 
@@ -210,8 +206,4 @@ npm test                 # Run all tests
 This project is part of the DKG ecosystem.
 Alle Labs plugin is MIT licensed.
 
-
-
-
-![Alle Labs Banner](./public/dkg1.png)
 
